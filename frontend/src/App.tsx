@@ -1,6 +1,21 @@
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Principal from "components/Principal";
+import Navbar from "components/Navbar";
+import Projetos from "components/Projetos";
+
 function App() {
   return (
-<h1>Pagina principal</h1>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Principal />} />
+        <Route path="/projetos" element={<Projetos />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
