@@ -1,0 +1,27 @@
+main{
+    background-color: #333333;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+}
+
+article, h2{
+    color: #e8e8e8;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+p{
+    color: #e8e8e8;
+}
+.miniatura{
+    display: flex;
+    align-items: center;
+   
+    margin-left: 200px;
+
+}
+.card{
+    width: 250%;
+    height: 225;
+}
