@@ -1,7 +1,11 @@
 import './styles.css'
+import me from 'assets/img/me.jpeg'
 function Principal() {
     return (
         <main >
+            <picture>
+                <img className="teste" src={me}></img>
+            </picture>
             <h2>
                 Formação Academica
             </h2>
@@ -39,9 +43,9 @@ function Principal() {
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
                         <div className="card shadow-sm">
-                            <svg className="bd-placeholder-img card-img-top">
-                                
-                            </svg>
+                            
+                                <img src={me}></img>
+                            
                         </div>
                     </div>
                 </div>
@@ -49,7 +53,9 @@ function Principal() {
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
                         <div className="card shadow-sm">
-                            <svg className="bd-placeholder-img card-img-top"></svg>
+                            
+                                <img src={me}></img>
+                           
                         </div>
                     </div>
                 </div>
@@ -57,7 +63,39 @@ function Principal() {
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
                         <div className="card shadow-sm">
-                            <svg className="bd-placeholder-img card-img-top"></svg>
+                            
+                                <img src={me}></img>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
+                    <div className='col'>
+                        <div className="card shadow-sm">
+                            
+                                <img src={me}></img>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
+                    <div className='col'>
+                        <div className="card shadow-sm">
+                            
+                                <img src={me}></img>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
+                    <div className='col'>
+                        <div className="card shadow-sm">
+                          
+                                <img src={me}></img>
+                     
                         </div>
                     </div>
                 </div>

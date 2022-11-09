@@ -1,27 +1,39 @@
-main{
+main {
     background-color: #333333;
     font-size: 20px;
     margin: 0;
     font-weight: 700;
 }
 
-article, h2{
+img {
+    width: 200px;
+    height: 200px;
+}
+
+article,
+h2 {
     color: #e8e8e8;
-    
     margin-left: 50px;
     margin-right: 50px;
 }
-p{
+
+p {
     color: #e8e8e8;
 }
-.miniatura{
+
+.miniatura {
+    margin-block-start: auto;
     display: flex;
-    align-items: center;
-   
-    margin-left: 200px;
+    justify-content: space-between;
+    
+}
+
+.card {
+    width: 75%;
+    height: 100;
 
 }
-.card{
-    width: 250%;
-    height: 225;
+
+.teste {
+    margin-left: 50px;
 }
