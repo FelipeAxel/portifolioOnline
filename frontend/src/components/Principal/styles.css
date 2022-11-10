@@ -5,9 +5,17 @@ main {
     font-weight: 700;
 }
 
-img {
+.me {
+    margin-left: 50px;
     width: 200px;
     height: 200px;
+
+}
+
+img{
+    margin-left: 50px;
+    width: 159px;
+    height: 100;
 }
 
 article,
@@ -22,29 +30,15 @@ p {
 }
 
 .miniatura {
-    margin-block-start: auto;
     display: flex;
-    justify-content: space-between;
-    
-}
-
-.card {
-    width: 75%;
-    height: 100;
 
 }
 
-.teste {
-    margin-left: 50px;
-}
-.teste3{
-    border-color: red;
-}
-
-.teste4{
+.teste4 {
     margin-bottom: 25px;
 }
-.c{
+
+.c {
     width: 10%;
     height: 100;
 }

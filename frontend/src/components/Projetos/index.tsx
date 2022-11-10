@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import './style.css'
-import dsvendas from 'assets/img/dsvendas.jpeg'
+import dsvendas from 'assets/img/dsvendas.png'
+import dsmovie from 'assets/img/dsmovie.png'
+
 function Projetos() {
     return (
         <div className="teste5" >
@@ -8,7 +10,7 @@ function Projetos() {
                 <div className="primeiro">
                     <div className="col" >
                         <div className="card shadow-sm">
-
+                        <img className="teste7" src={dsmovie}></img>
                         </div>
                         <a href="https://axelnovais-dsmovie8.netlify.app">dsmovie8</a>
                     </div>

@@ -1,12 +1,20 @@
+/* eslint-disable jsx-a11y/alt-text */
 import './styles.css'
-import{ReactComponent as Java} from'assets/img/java.svg'
+import { ReactComponent as Java } from 'assets/img/java.svg'
 
+import me from 'assets/img/me.jpeg'
+import javalogo from 'assets/img/javalogo.png'
+import postgresql from 'assets/img/postgresql.png'
+import spring from 'assets/img/spring.png'
+import html from 'assets/img/html.png'
+import css from 'assets/img/css.png'
+import javascript from 'assets/img/javascript.png'
 
 function Principal() {
     return (
         <main >
             <picture>
-               
+                <img className="me" src={me}></img>
             </picture>
 
             <article>
@@ -22,8 +30,6 @@ function Principal() {
                     </p>
                 </aside>
             </article>
-
-
             <h2>
                 Formação Academica
             </h2>
@@ -42,42 +48,44 @@ function Principal() {
             <div className="teste4">
                 <h2>Algumas das tecnologias que ja trabalhei</h2>
             </div>
-            
-                
-                  <div className="c">
-                            <Java/>
+            <div className='miniatura'>
+                <div className="car shadow-sm">
+                    <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
+                        <div className='col'>
+                            <img className="teste2" src={javalogo}></img>
+                        </div>
+                    </div>
+
                 </div>
 
-                
-                            <div className='miniatura'>
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        
+                        <img className="teste2" src={postgresql}></img>
                     </div>
                 </div>
 
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        
+                        <img className="teste2" src={spring}></img>
                     </div>
                 </div>
 
 
-                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
+                <div className='row row-cols-1 row-cols-sm-2'>
                     <div className='col'>
-                    
-                    </div>
-                </div>
-
-                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
-                    <div className='col'>
-                        
+                        <img className="teste2" src={javascript}></img>
                     </div>
                 </div>
 
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        
+                        <img className="teste2" src={html}></img>
+                    </div>
+                </div>
+
+                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
+                    <div className='col'>
+                        <img className="teste2" src={css}></img>
                     </div>
 
                 </div>
