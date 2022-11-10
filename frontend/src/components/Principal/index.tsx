@@ -41,7 +41,7 @@ function Principal() {
                     Facauldade Cruzeiro do Sul
                     Campus Paulista
                     <p>
-                    Durante a faculdade aprendemos desde requisitos de sistema e regras de negócio ate codificação de mini projetos ao decorrer do curso, sempre aprendendo de tudo um pouco tive matérias como, Modelagem de negócios, Engenharia de requisitos, Organização e arquitetura de computadores até, Banco de dados, Sistema cliente/servidor, Programação para dispositivos móveis.
+                        Durante a faculdade aprendemos desde requisitos de sistema e regras de negócio ate codificação de mini projetos ao decorrer do curso, sempre aprendendo de tudo um pouco tive matérias como, Modelagem de negócios, Engenharia de requisitos, Organização e arquitetura de computadores até, Banco de dados, Sistema cliente/servidor, Programação para dispositivos móveis.
                     </p>
                 </aside>
             </article>
@@ -90,7 +90,13 @@ function Principal() {
 
                 </div>
             </div>
+            <footer className="footer mt-auto py-3 bg-dark">
+                <div className="container">
+                    <p className="text-light">Desenvolvido por Axel Felipe</p>
+                </div>
+            </footer>
         </main>
+
     );
 }
 
