@@ -1,5 +1,5 @@
 import './styles.css'
-
+import{ReactComponent as Java} from'assets/img/java.svg'
 
 
 function Principal() {
@@ -46,7 +46,7 @@ function Principal() {
                 <div className="car shadow-sm">
                     <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                         <div className='col'>
-                            
+                            <Java />
                         </div>
                     </div>
 
