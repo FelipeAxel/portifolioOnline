@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Principal />} />
-        <Route path="/projetos" element={<Projetos />} />
+        <Route path="meuportifolioaxel.netlify.app/projetos" element={<Projetos />} />
       </Routes>
     </BrowserRouter>
   );
