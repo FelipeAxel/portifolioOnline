@@ -9,7 +9,7 @@ function Navbar() {
                 <div className="portifolio-nav-content">
                     <h1>Meu Portifólio</h1>
                     <div className="btn projeto-btn">
-                    <a href="http://localhost:3000/projetos">Projetos</a>
+                    <a href="meuportifolioaxel.netlify.app/projetos">Projetos</a>
                     </div>
                     <a href="https://github.com/FelipeAxel" target="_blank" rel="noreferrer">
                         <div className="portifolio-contact-container">
