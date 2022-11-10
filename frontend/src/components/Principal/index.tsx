@@ -44,9 +44,9 @@ function Principal() {
             </div>
             
                 
-                  
+                  <div className="c">
                             <Java/>
-              
+                </div>
 
                 
                             <div className='miniatura'>
