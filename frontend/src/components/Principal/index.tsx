@@ -42,16 +42,14 @@ function Principal() {
             <div className="teste4">
                 <h2>Algumas das tecnologias que ja trabalhei</h2>
             </div>
-            <div className='miniatura'>
-                <div className="car shadow-sm">
-                    <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
-                        <div className='col'>
-                            <Java />
-                        </div>
-                    </div>
+            
+                
+                  
+                            <Java/>
+              
 
-                </div>
-
+                
+                            <div className='miniatura'>
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
                         
