@@ -1,11 +1,6 @@
 import './styles.css'
 import me from 'assets/img/me.jpeg'
-import javalogo from 'assets/img/javalogo.png'
-import postgresql from 'assets/img/postgresql.png'
-import spring from 'assets/img/spring.png'
-import html from 'assets/img/html.png'
-import css from 'assets/img/css.png'
-import javascript from 'assets/img/javascript.png'
+
 
 
 function Principal() {
@@ -52,7 +47,7 @@ function Principal() {
                 <div className="car shadow-sm">
                     <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                         <div className='col'>
-                            <img className="teste2" src={javalogo}></img>
+                            
                         </div>
                     </div>
 
@@ -60,32 +55,32 @@ function Principal() {
 
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        <img className="teste2" src={postgresql}></img>
+                        
                     </div>
                 </div>
 
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        <img className="teste2" src={spring}></img>
+                        
                     </div>
                 </div>
 
 
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        <img className="teste2" src={javascript}></img>
+                    
                     </div>
                 </div>
 
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        <img className="teste2" src={html}></img>
+                        
                     </div>
                 </div>
 
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g3'>
                     <div className='col'>
-                        <img className="teste2" src={css}></img>
+                        
                     </div>
 
                 </div>
