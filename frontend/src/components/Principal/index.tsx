@@ -1,5 +1,4 @@
 import './styles.css'
-import me from 'assets/img/me.jpeg'
 
 
 
@@ -7,7 +6,7 @@ function Principal() {
     return (
         <main >
             <picture>
-                <img className="teste" src={me}></img>
+               
             </picture>
 
             <article>
