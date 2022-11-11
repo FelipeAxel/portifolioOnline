@@ -1,9 +1,15 @@
 .retirado{
     display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
+    
 }
 .teste5{
-    background-color: #333333;
+    background-color:#253342;
 }
-
+.fff{
+    margin-left: 50px;
+    width: 75%;
+    margin-bottom: 25px;
+}
+.gg{
+    margin-left: 50px;
+}

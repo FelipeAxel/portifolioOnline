@@ -9,14 +9,11 @@ function Projetos() {
             <div className="retirado">
                 <div className="primeiro">
                     <div className="col" >
-                        <div className="card shadow-sm">
-                        <img className="teste7" src={dsmovie}></img>
-                        </div>
-                        <a href="https://axelnovais-dsmovie8.netlify.app">dsmovie8</a>
+                        <img className="fff" src={dsmovie}></img>
+
                     </div>
-                    <div className="dsmovie">
-
-
+                    <div className="gg" >
+                        <a href="https://axelnovais-dsmovie8.netlify.app">dsmovie8</a>
                     </div>
                     <div className="card-body">
                         <p>sadasd</p>
@@ -25,22 +22,10 @@ function Projetos() {
 
                 <div className="qwe">
                     <div className="col" >
-                        <div className="card shadow-sm">
-                            <img className="teste7" src={dsvendas}></img>
-                        </div>
+                        <img className="fff" src={dsvendas}></img>
+                    </div>
+                    <div className="gg" >
                         <a href="https://axel-dsvendas.netlify.app">dsvendas</a>
-                    </div>
-                    <div className="card-body">
-                        <p>sadasd</p>
-                    </div>
-                </div>
-
-
-                <div className="zxc">
-                    <div className="col" >
-                        <div className="card shadow-sm">
-
-                        </div>
                     </div>
                     <div className="card-body">
                         <p>sadasd</p>
