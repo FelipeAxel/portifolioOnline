@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import './styles.css'
-import { ReactComponent as Java } from 'assets/img/java.svg'
 
 import me from 'assets/img/me.jpeg'
 import javalogo from 'assets/img/javalogo.png'
