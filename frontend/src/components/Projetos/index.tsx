@@ -15,8 +15,10 @@ function Projetos() {
                     <div className="gg" >
                         <a href="https://axelnovais-dsmovie8.netlify.app">dsmovie8</a>
                     </div>
-                    <div className="card-body">
-                        <p>sadasd</p>
+                    <div className="container">
+                        <p>Aplicativo desenvolvido na semana devsuperior com intuito de desenvolver a base de um programador fullstack, o dsmovie tem a funcionalidade de classificação do filme por estrelas
+                            Um forms para você poder por seu email e fazer sua avaliação.
+                            uma semana repleta de conhecimento e muita pratica.</p>
                     </div>
                 </div>
 
@@ -27,8 +29,8 @@ function Projetos() {
                     <div className="gg" >
                         <a href="https://axel-dsvendas.netlify.app">dsvendas</a>
                     </div>
-                    <div className="card-body">
-                        <p>sadasd</p>
+                    <div className="container">
+                        <p>Aplicativo desenvolvido na semana devsuperior com intuito de desenvolver a base de um programador fullstack, o dsvendas tem a funcionalidade de listagem de vendas com um dashboard bem interativo, graficos e metricas, tudo sendo enviado por um banco de dados usando o postgresql.</p>
                     </div>
                 </div>
             </div>
