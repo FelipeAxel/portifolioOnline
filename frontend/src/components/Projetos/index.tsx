@@ -34,6 +34,9 @@ function Projetos() {
                     </div>
                 </div>
             </div>
+            <div className="gg" >
+                        <a href="https://myapptask.netlify.app">dsmovie8</a>
+                    </div>
         </div>
     );
 }
